@@ -30,6 +30,7 @@ jobs:
     - uses: subosito/flutter-action@v2
       with:
         flutter-version: '2.5.3'
+    - run: flutter upgrade
     - name: Get flutter packages
       run: flutter pub get
     - name: Run Tests
