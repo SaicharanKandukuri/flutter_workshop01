@@ -33,8 +33,6 @@ jobs:
     - run: flutter upgrade
     - name: Get flutter packages
       run: flutter pub get
-    - name: Run Tests
-      run: flutter test
     - name: Build android app
       run: flutter build apk; flutter build appbundle
     - name: Upload artifacts
